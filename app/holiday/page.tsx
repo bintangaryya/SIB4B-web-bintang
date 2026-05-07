@@ -5,7 +5,7 @@ export default function HolidayPage () {
             <div className="justify-center">
                 <div className="bg-white h-120 w-80 rounded-4xl p-7 flex flex-col gap-4">
                     <div>
-                        <img src ="/sunset.jpg" className=" h-70 rounded-4xl"/>
+                        <img src ="/langit.jpg" className=" h-70 rounded-4xl"/>
                     </div>
 
                     <div className="flex flex-col">
