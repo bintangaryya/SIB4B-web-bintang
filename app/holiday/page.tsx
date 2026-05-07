@@ -16,7 +16,7 @@ export default function HolidayPage () {
 
                     </div>
                     
-                    <div className="flex gap-4 text-black">
+                    <div className="flex gap-2 text-black">
                         <div className="flex gap-2">
                             <img src="/tag.svg"/>
                             <p>from $240</p>
@@ -31,8 +31,10 @@ export default function HolidayPage () {
                         <div className="bg-black h-8 w-50 rounded-2xl flex justify-center items-center">
                             <button>Search Flight</button>
                         </div>
-                        <div className="h-7 w-7 rounded-full bg-white border border-black">
+                        <div className="h-10 w-10 rounded-full bg-white border border-black flex justify-center items-center">
+                            <button>
                             < img src="/heart.svg"/>
+                            </button>
                         </div>
                             
                         </div>
