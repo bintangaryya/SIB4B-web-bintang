@@ -1,9 +1,9 @@
 export default function TaskPage() {
     return (
-    <div className="bg-white h-screen flex gap-4 justify-center items-center flex-col  ">
-        
+    <div className="bg-white h-screen flex gap-4 justify-center items-center flex-col ">
+
         <div className="flex gap-4 justify-center">
-        
+
             <div className="bg-blue-200 h-80 w-120 flex flex-col justify-between p-8 rounded-4xl text-blue-950">
                 <div className=" flex gap-4 ">
                     <img src="/palette.svg"/>
@@ -18,7 +18,7 @@ export default function TaskPage() {
                             <img src="/112413f070536d15170606f2d00aa15d.png" className= " h-7 rounded-full border-2 border-white"/>
                             <img src="/9854663aec5741bbbe84290b6edc0aed.png" className= " h-7 rounded-full border-2 border-white"/>
                             <div className="h-7 w-7 rounded-full bg-blue-100 p-1.5 text-xs">+9</div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@ export default function TaskPage() {
             <div className="bg-green-200 h-80 w-120 flex flex-col justify-between p-8 rounded-4xl text-blue-950">
                 <div className="flex justify-between items-center">
                     <div className="flex gap-4">
-                        <img src="/code.svg"/>
+                        <img src="/prompt.svg"/>
                         <p> AI </p>
                     </div>
                     <img src="/star.svg"/>
@@ -62,7 +62,7 @@ export default function TaskPage() {
 
         <div className="bg-orange-300 h-72 w-96 flex flex-col justify-between p-8 rounded-4xl text-blue-950">
             <div className=" flex gap-4">
-                <img src="/prompt.svg"/>
+                <img src="/code.svg"/>
                 <p> Coding </p>
             </div>
 
